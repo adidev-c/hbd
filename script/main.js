@@ -85,7 +85,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=3")
+    "+=2")
     .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,
@@ -104,7 +104,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=4")
+    "+=3")
     .to(
         ".four",
         0.5, {
@@ -112,7 +112,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: -150
         },
-    "+=1")
+    "+=0.5")
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-2", 0.7, ideaTextTrans)
@@ -137,7 +137,7 @@ const animationTimeline = () => {
             z: 10,
             opacity: 0,
         },
-        "+=1.5"
+        "+=0.5"
     )
     .to(
         ".idea-5 span",
@@ -153,7 +153,7 @@ const animationTimeline = () => {
             scale: 0.2,
             opacity: 0,
         },
-        "+=2"
+        "+=1"
     )
     .staggerFrom(
         ".idea-6 span",
